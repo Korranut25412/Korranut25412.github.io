@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Korranut Pamittasil — Data Science Portfolio</title>
+<meta name="description" content="Data Science student at Silpakorn University. Projects in data pipelines, SQL analytics and AI assistants.">
+<style>
+  :root { --bg:#0f1115; --card:#171a21; --line:#262b36; --text:#e6e8ec; --muted:#9aa3b2; --accent:#4cc2ff; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Thai",sans-serif; }
+  .wrap { max-width:860px; margin:0 auto; padding:56px 20px 40px; }
+  h1 { font-size:2.2rem; margin:0 0 4px; }
+  .role { color:var(--accent); font-weight:600; margin:0 0 16px; }
+  p { color:var(--muted); margin:0 0 12px; }
+  h2 { font-size:1.1rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); margin:48px 0 16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; margin-bottom:16px; }
+  .card h3 { margin:0 0 6px; font-size:1.15rem; }
+  .card h3 a { color:var(--text); text-decoration:none; }
+  .card h3 a:hover { color:var(--accent); }
+  .card ul { color:var(--muted); margin:8px 0 12px; padding-left:20px; }
+  .tags { display:flex; flex-wrap:wrap; gap:6px; }
+  .tag { font-size:.8rem; border:1px solid var(--line); border-radius:999px; padding:2px 10px; color:var(--text); }
+  .links a { color:var(--accent); margin-right:16px; text-decoration:none; }
+  .links a:hover { text-decoration:underline; }
+  footer { margin-top:56px; color:var(--muted); font-size:.85rem; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <h1>Korranut Pamittasil</h1>
+  <p class="role">Data Science student · Silpakorn University (Year 2)</p>
+  <p>I turn messy real-world data into decisions, and build small tools that save time every day. Currently analysing real sales data from my own online shop, building AI assistants on top of Claude, and looking for a data internship.</p>
+  <p class="links"><a href="https://github.com/Korranut25412">GitHub</a><a href="KorranutJourney/website-main/public/index.html">High-school portfolio</a></p>
+
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3><a href="https://github.com/Korranut25412/bladeball-ledger-showcase">Shop Ledger &amp; Analytics</a></h3>
+    <p>Bookkeeping and analytics for a Roblox item shop I've run for two years.</p>
+    <ul>
+      <li>Logs <b>every day</b>, not only sales days — so "no customers", "didn't open" and "forgot to record" can be told apart.</li>
+      <li>Computes true cost when items are bought with tokens at a fluctuating exchange rate.</li>
+      <li>Data entry by Telegram chat; SQL analysis queries on PostgreSQL (Supabase).</li>
+    </ul>
+    <div class="tags"><span class="tag">Python</span><span class="tag">PostgreSQL</span><span class="tag">SQL</span><span class="tag">Telegram Bot API</span></div>
+  </div>
+
+  <div class="card">
+    <h3><a href="https://github.com/Korranut25412/mirai-telegram-bot">Mirai — AI Assistant on Telegram</a></h3>
+    <p>A personal assistant that drives the Claude Code CLI from a phone, at no extra API cost.</p>
+    <ul>
+      <li>Session memory, web search, read-only tool whitelist for safety.</li>
+      <li>Scheduled 07:00 news briefing; long answers split or sent as files.</li>
+      <li>Extracts English vocabulary from replies into a study list automatically.</li>
+    </ul>
+    <div class="tags"><span class="tag">Python (stdlib)</span><span class="tag">Claude Code</span><span class="tag">LLM</span><span class="tag">Telegram Bot API</span></div>
+  </div>
+
+  <h2>Skills</h2>
+  <div class="tags">
+    <span class="tag">Python</span><span class="tag">SQL</span><span class="tag">PostgreSQL</span><span class="tag">SQLite</span>
+    <span class="tag">Power BI</span><span class="tag">Git</span><span class="tag">HTML/CSS/JS</span><span class="tag">LLM tooling</span>
+  </div>
+
+  <footer>© 2026 Korranut Pamittasil</footer>
+</main>
+</body>
+</html>
